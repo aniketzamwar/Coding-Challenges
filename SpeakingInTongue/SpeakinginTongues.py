@@ -11,6 +11,10 @@
 
 import sys
 
+if len(sys.argv) != 2:
+    print "Please enter commmand line argument as file: python file.py input filename"
+    sys.exit()
+
 myinput = 'ejp mysljylc kd kxveddknmc re jsicpdrysi rbcpc ypc rtcsra dkh wyfrepkym veddknkmkrkcd de kr kd eoya kw aej tysr re ujdr lkgc jv de kr kd eoya kw aej tysr re ujdr lkgc jv y e q z'
 
 output = 'our language is impossible to understand there are twenty six factorial possibilities so it is okay if you want to just give up so it is okay if you want to just give up a o z q'
@@ -22,9 +26,13 @@ for val in myinput:
 
 dict['\n'] = ''
 
-f = open(sys.argv[1],'r');
+try:
+    f = open(sys.argv[1],'r');
+    line = f.readline()
+except IOError:
+    print "Input File could not be opened"
+    sys.exit()
 
-line = f.readline()
 val = int(line)
 
 if val <= 30:

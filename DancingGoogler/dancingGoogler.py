@@ -7,8 +7,17 @@
 
 import sys
 
-f = open(sys.argv[1],'r')
-count = int(f.readline())
+if len(sys.argv) != 2:
+    print "Please run program: python file.py inputFilename"
+    sys.exit()
+
+try:
+    f = open(sys.argv[1],'r')
+    count = int(f.readline())
+except IOError:
+    print "Input File could not be opened"
+    sys.exit()
+
 if count > 100 or count <= 0:
     print "Error: Number of Test Case cannot be more than 100 or less than 1"
     sys.exit()

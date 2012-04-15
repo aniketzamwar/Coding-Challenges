@@ -2,9 +2,17 @@
 
 import sys
 
-f = open(sys.argv[1],'r')
+if len(sys.argv) != 2:
+    print "Please pass command Line argument to run the program: python file.py inputFilename"
+    sys.exit()
 
-count = int(f.readline())
+try:
+    f = open(sys.argv[1],'r')
+    count = int(f.readline())
+except IOError:
+    print "Input File Could not be opened"
+    sys.exit()
+
 i = 1
 
 while True:

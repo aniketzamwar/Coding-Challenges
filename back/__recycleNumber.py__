@@ -1,0 +1,39 @@
+#!/usr/bin/python
+
+A = 1111
+B = 2222
+
+number = 1000
+
+#print "count is %d " % count 
+i = 0
+myans = 0
+dict = {}
+while (A + i) < B:
+    num = A + i
+    original = A + i
+    temp = A + i
+    i = i + 1
+
+    #print "\nOriginal Number is %d " % original
+    temp = temp / 10
+    quo = num / 10
+    rem = num % 10
+    
+    while temp != 0:
+    
+        if rem != 0:
+            num = (rem * number) + quo
+        else:
+            num = num / 10
+
+        if num <= B and num > original and rem != 0:
+            myans = myans + 1
+            print "Number is %d > original %d, Ans is %d" % (num,original,myans)
+        #else:
+        #    print "Number is %d, original %d" % (num,original)
+        temp = temp / 10
+        quo = num / 10
+        rem = num % 10
+
+print myans
