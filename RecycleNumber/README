@@ -1,13 +1,13 @@
-######################################################################
+#################################################
 #	Author: Aniket Zamwar
 #	Google Code Jam 2012
 #	Problem 3: RecycledNumbers
 #	Language: python
-######################################################################
+#################################################
 
-------------------------------------------------------------------------------------------------
+-------------------------------------------------
 Files:
-------------------------------------------------------------------------------------------------
+-------------------------------------------------
 
 + recycleNumber.py	: python Code File
 + C-small-practice.in	: Small Input File
@@ -15,18 +15,18 @@ Files:
 + C-large-practice.in	: Large Input File
 + C-large-practice.out  : Output for Large input File
 
-------------------------------------------------------------------------------------------------
+-------------------------------------------------
 How to run ?
-------------------------------------------------------------------------------------------------
+-------------------------------------------------
 + Small Input File
 > python recycleNumber.py C-small-practice.in > C-small-practice.out
 
 + Large Input File
 > python recycleNumber.py C-large-practice.in > C-large-practice.out
 
-------------------------------------------------------------------------------------------------
+-------------------------------------------------
 Problem Description:
-------------------------------------------------------------------------------------------------
+-------------------------------------------------
 
 + Do you ever become frustrated with television because you keep seeing the same things, recycled over and over again? Well I personally don't care about television, but I do sometimes feel that way about numbers.
 

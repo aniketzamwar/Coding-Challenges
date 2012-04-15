@@ -1,13 +1,13 @@
-######################################################################
+##########################################################
 #	Author: Aniket Zamwar
 #	Google Code Jam 2012
 #	Problem 2: Dancing With the Googlers
 #	Language: python
-######################################################################
+##########################################################
 
-------------------------------------------------------------------------------------------------
+----------------------------------------------------------
 Files:
-------------------------------------------------------------------------------------------------
+----------------------------------------------------------
 
 + dancingGoogler.py	: python Code File
 + B-small-practice.in	: Small Input File
@@ -15,18 +15,18 @@ Files:
 + B-large-practice.in	: Large Input File
 + B-large-practice.out  : Output for Large input File
 
-------------------------------------------------------------------------------------------------
+----------------------------------------------------------
 How to run ?
-------------------------------------------------------------------------------------------------
+----------------------------------------------------------
 + Small Input File
 > python dancingGoogler.py B-small-practice.in > B-small-practice.out
 
 + Large Input File
 > python dancingGoogler.py B-large-practice.in > B-large-practice.out
 
-------------------------------------------------------------------------------------------------
+----------------------------------------------------------
 Problem Description:
-------------------------------------------------------------------------------------------------
+----------------------------------------------------------
 
 + You're watching a show where Googlers (employees of Google) dance, and then each dancer is given a triplet of scores by three judges. Each triplet of scores consists of three integer scores from 0 to 10 inclusive. The judges have very similar standards, so it's surprising if a triplet of scores contains two scores that are 2 apart. No triplet of scores contains scores that are more than 2 apart.
 
@@ -79,4 +79,4 @@ Case #2: 2
 Case #3: 1
 Case #4: 3
 
-==============================================================================================================
+======================================================
