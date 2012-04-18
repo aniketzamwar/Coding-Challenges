@@ -30,12 +30,15 @@ while count > 0:
     if not line:
         break
     myinput = line.split()
+    del line
     values = myinput[3:]
 
     numofGooglers = int(myinput[0])
     surpriseCount = int(myinput[1])
     maxVal = int(myinput[2])
-    
+
+    del myinput
+
     ans = 0
 
     for val in values:

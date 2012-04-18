@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+'''Google Code Jam 2012
+   Recycle of Number
+   Author: Aniket Zamwar
+   aniketzamwar@gmail.com'''
+
 import sys
 
 if len(sys.argv) != 2:
@@ -21,7 +26,8 @@ while True:
     if not line:
         break
     (A,B) = line.split(' ')
-
+    
+    del line
     intB = int(B)
     intA = int(A)
     myans = 0
